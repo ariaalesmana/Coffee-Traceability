@@ -1,0 +1,181 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.lingkaran.grosir {
+  height: 4rem;
+  width: 4rem;
+  margin: auto;
+  /* background-color: rgba(75, 78, 75, 0.363); */
+  background-color: #00c4cc;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  grid-area: header;
+}
+
+.title.grosir {
+  padding: 5%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "header main";
+  grid-template-columns: 1fr 8fr;
+}
+
+#actionDiv.grosir {
+  grid-template-columns: 1fr 2fr;
+  margin: auto;
+  vertical-align: middle;
+}
+
+#actionName.grosir {
+  color: black;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.heading.grosir {
+  vertical-align: auto;
+  margin: auto;
+  margin-left: 1%;
+  grid-area: main;
+}
+
+span.grosir {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+h1.grosir {
+  margin-top: 2px;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.garis.grosir {
+  border: 1px solid black;
+}
+
+.container.grosir {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 15px;
+}
+
+.component.grosir {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(192, 192, 192, 0.445);
+  /* background-color: #00c4cc; */
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+
+#actionComp.grosir:hover {
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2.grosir {
+  margin-top: 2%;
+  font-size: 1.5rem;
+}
+
+.textInput.grosir {
+  width: stretch;
+  height: 40px;
+  padding: 0.5%;
+}
+
+.divSatuan.grosir {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "header main";
+  grid-template-columns: 1fr 8fr;
+}
+
+.textInputSatuan.grosir {
+  width: 50%;
+  height: 40px;
+  padding: 0.5%;
+}
+
+.textAreaInput.grosir {
+  padding: 0.5%;
+  width: stretch;
+  height: 200px;
+  resize: none;
+}
+
+button.grosir {
+  height: 30px;
+  width: 70px;
+  margin: 1%;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.cancelButton.grosir {
+  color: white;
+  background-color: #e55353;
+  font-size: 14px;
+  grid-area: cancelButton;
+}
+
+.submitButton.grosir {
+  color: white;
+  background-color: #321fdb;
+  font-size: 14px;
+  grid-area: submitButton;
+}
+
+.footer.grosir {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  grid-template-areas: "submitButton cancelButton";
+  grid-template-columns: 1fr 1fr;
+}
+
+.detailForm.grosir {
+  margin: auto;
+  margin-top: 2%;
+  grid-template-areas: "namaDetail detailForm";
+  grid-template-columns: 1fr 1fr;
+}
+
+.namaDetail.grosir {
+  grid-area: namaDetail;
+}
+
+.detailForm.grosir {
+  grid-area: detailForm;
+}
+
+.batchTitle.grosir {
+  color: grey;
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
